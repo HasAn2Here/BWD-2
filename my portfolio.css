@@ -1,0 +1,75 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+/* Header Section */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+/* Profile Photo */
+.profile-pic {
+    width: 150px;  /* Adjust size */
+    height: 150px;
+    border-radius: 50%;  /* Makes it circular */
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #333; /* Adds a border */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    padding: 50px;
+}
+
+#about {
+    background-color: #fff;
+}
+
+#projects {
+    background-color: #e2e2e2;
+}
+
+.project {
+    margin: 20px auto;
+    width: 80%;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
